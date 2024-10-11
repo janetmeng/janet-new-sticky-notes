@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'Arial', sans-serif; 
+  background-color: #f5f5f5; 
+  color: #333; 
+  line-height: 1.6; 
+}
+
+/* Main container */
+.home {
+  max-width: 600px; 
+  margin: 50px auto; 
+  padding: 20px; 
+  background-color: #a8a8f4; 
+  border-radius: 8px;
+}
+
+/* Heading style */
+h1 {
+  font-size: 2rem; 
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+
+/* List styling */
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; 
+}
+
+/* List item styling */
+li {
+  padding: 10px; 
+  border-bottom: 1px solid #fff; 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Input field styling */
+input[type="text"] {
+  width: calc(100% - 20px); 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  font-size: 1rem; 
+}
+
+/* Button styling */
+button {
+  padding: 8px 12px; 
+  margin-left: 5px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+/* Primary button style */
+button:hover {
+  background-color: #007bff; /* Change background on hover */
+  color: white; /* Change text color on hover */
+}
+
+/* Button for deleting notes */
+button:nth-of-type(1) {
+  background-color: #dc3545; /* Red background for delete */
+  color: white; /* White text color */
+}
+
+button:nth-of-type(1):hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Button for editing notes */
+button:nth-of-type(2) {
+  background-color: #ffc107; /* Yellow background for edit */
+  color: white; /* White text color */
+}
+
+button:nth-of-type(2):hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+/* Update button style */
+button:last-of-type {
+  background-color: #28a745; /* Green background for update */
+  color: white; /* White text color */
+}
+
+button:last-of-type:hover {
+  background-color: #218838; /* Darker green on hover */
+}
